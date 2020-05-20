@@ -4,28 +4,24 @@
     ViewData["Title"] = "Home page";
 }
 
-<div>
-    <a class="btn btn-primary" asp-page="/createNote">Create note</a>
-</div>
 
 @if (Model.Notes.Count() <= 0)
 {
-    <h1>Here no any notes yet. Add something to do...</h1>
+    <h2 class="info-heading">Here is no any notes yet. Let's add something note...</h2>
 }
 else
 {
-    <h1>Here is your notes. Let's do something...</h1>
+    <h2 class="info-heading">Your notes. You have @Model.Notes.Count() note(s) to do...</h2>
 }
 
-
+<div class="create-btn">
+    <a class="btn btn-primary" asp-page="/createNote">Create note</a>
+</div>
 
 @foreach (var note in Model.Notes.Reverse())
 {
 <form method="post">
     <div class="card">
-        @*<div class="card-header">
-            Number of note: @note.; 
-        </div>*@
         <div class="card-body">
             <p class="card-text">@note.NoteString</p>
             <a asp-page="/updateNote" asp-route-id="@note.Id" class="btn btn-primary">Update note</a>

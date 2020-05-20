@@ -4,15 +4,13 @@
     ViewData["Title"] = "UpdateNote";
 }
 
-<h1>UpdateNote</h1>
+<h2 class="info-heading">Update your note...</h2>
 
-<form method="post" class="form-horizontal">
-    <div asp-validation-summary="All" class="text-danger"></div>
+<form method="post" class="crud-form form-horizontal">
     <input asp-for="Note.Id" type="hidden" />
     <div class="form-group">
-        <label asp-for="Note.NoteString" class="col-md-2 control-label"></label>
-        <div class="col-md-10">
-            <input asp-for="Note.NoteString" class="form-control" />
+        <div class="col-md-12">
+            <input asp-for="Note.NoteString" class="form-control" placeholder="Update your note here..." />
             <span asp-validation-for="Note.NoteString" class="text-danger"></span>
         </div>
     </div>
