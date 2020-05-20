@@ -2752,6 +2752,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "TestAppNotesDTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
+        "compile": {
+          "bin/placeholder/TestAppNotesDTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestAppNotesDTO.dll": {}
+        }
       }
     }
   },
@@ -8753,6 +8766,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "TestAppNotesDTO/1.0.0": {
+      "type": "project",
+      "path": "../NoteAppDTO/TestAppNotesDTO.csproj",
+      "msbuildProject": "../NoteAppDTO/TestAppNotesDTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8762,7 +8780,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.4",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.2",
       "Microsoft.VisualStudio.Web.CodeGeneration.Utils >= 3.1.2",
-      "Swashbuckle.AspNetCore >= 5.4.1"
+      "Swashbuckle.AspNetCore >= 5.4.1",
+      "TestAppNotesDTO >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8790,7 +8809,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\admin\\source\\repos\\TestAppNotes\\NoteAppDTO\\TestAppNotesDTO.csproj": {
+              "projectPath": "C:\\Users\\admin\\source\\repos\\TestAppNotes\\NoteAppDTO\\TestAppNotesDTO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

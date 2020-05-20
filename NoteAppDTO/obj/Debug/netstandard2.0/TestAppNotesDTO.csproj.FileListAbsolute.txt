@@ -1,0 +1,8 @@
+C:\Users\admin\source\repos\TestAppNotes\NoteAppDTO\bin\Debug\netstandard2.0\TestAppNotesDTO.deps.json
+C:\Users\admin\source\repos\TestAppNotes\NoteAppDTO\bin\Debug\netstandard2.0\TestAppNotesDTO.dll
+C:\Users\admin\source\repos\TestAppNotes\NoteAppDTO\obj\Debug\netstandard2.0\TestAppNotesDTO.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\TestAppNotes\NoteAppDTO\obj\Debug\netstandard2.0\TestAppNotesDTO.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\TestAppNotes\NoteAppDTO\obj\Debug\netstandard2.0\TestAppNotesDTO.AssemblyInfo.cs
+C:\Users\admin\source\repos\TestAppNotes\NoteAppDTO\bin\Debug\netstandard2.0\TestAppNotesDTO.pdb
+C:\Users\admin\source\repos\TestAppNotes\NoteAppDTO\obj\Debug\netstandard2.0\TestAppNotesDTO.dll
+C:\Users\admin\source\repos\TestAppNotes\NoteAppDTO\obj\Debug\netstandard2.0\TestAppNotesDTO.pdb

@@ -1,0 +1,19 @@
+﻿@page
+@model FrontEnd.CreateNoteModel
+@{
+    ViewData["Title"] = "CreateNote";
+}
+
+<form method="post" class="form-horizontal">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Note.NoteString" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <input asp-for="Note.NoteString" class="form-control" />
+            <span asp-validation-for="Note.NoteString" class="text-danger"></span>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Create note</button>
+</form>
+
+
