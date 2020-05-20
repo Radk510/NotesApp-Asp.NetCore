@@ -7,11 +7,11 @@
 
 @if (Model.Notes.Count() <= 0)
 {
-    <h2 class="info-heading">Here is no any notes yet. Let's add something note...</h2>
+    <h2 class="text-center info-heading">Here is no any notes yet. Add something to your schedule...</h2>
 }
 else
 {
-    <h2 class="info-heading">Your notes. You have @Model.Notes.Count() note(s) to do...</h2>
+    <h2 class="text-center info-heading">Your notes. You have @Model.Notes.Count() note(s) to do...</h2>
 }
 
 <div class="create-btn">
